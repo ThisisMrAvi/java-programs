@@ -5,7 +5,7 @@ class fileios{
 			FileInputStream fis= new FileInputStream("file.txt");
 			int i;
 			while((i=fis.read())!=-1){
-			System.out.println((char)i);
+			System.out.print((char)i);
 			} 
 			fis.close();
 		}
